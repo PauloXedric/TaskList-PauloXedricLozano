@@ -34,6 +34,8 @@
         <div>
           <h4>{{ task.title }}</h4>
           <p>{{ task.description }}</p>
+          <p>Due Date: {{ task.dueDate | date }}</p>
+
           <span
             [ngClass]="task.status ? 'status-done' : 'status-pending'"
             class="status-label"
