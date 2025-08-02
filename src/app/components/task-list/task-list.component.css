@@ -1,0 +1,97 @@
+h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+  text-align: center;
+}
+
+label {
+  margin-top: 2rem;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #374151;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 50%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #111827;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+  display: inline-block;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.primary-btn {
+  margin-top: 1.5rem;
+  display: inline-block;
+  width: 50%;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: 600;
+  padding: 0.65rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #2563eb;
+}
+
+.p-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+}
+
+.p-card h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+  color: #111827;
+}
+
+.p-card p {
+  margin: 0.25rem 0;
+  color: #4b5563;
+}
+
+.p-card small {
+  color: #6b7280;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: green;
+}
+
+.status-label {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.status-done {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
